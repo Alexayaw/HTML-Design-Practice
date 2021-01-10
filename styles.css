@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	
+	background: aliceblue;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:16px;
+}
+
+body{
+	margin:0 auto;
+	max-width: 80%;
+	max-height: 1800px;
+	text-align: center;
+}
+header,footer{
+	
+	background-color: #dbcbd8;
+background-image: linear-gradient(316deg, #dbcbd8 0%, #2e4057 74%);
+	color:white;
+	padding:20px
+	
+}
+ 
+ul{
+	
+	margin:0px;
+	
+}
+
+li{
+	list-style: circle inside;
+	line-height: 20px;
+}
+a{ 
+	text-decoration: none;
+	color:inherit;
+	
+}
+a:hover{
+	color:blue;
+}
+ a.button-cart:hover{
+	color:white;
+}
+header div{
+	float:right;
+	margin: 25px 0px;
+	
+}
+header nav{
+	padding:0px 30px;
+}
+
+header li{
+	
+	display:inline;
+}
+
+header h1,nav{
+	display:inline-block;
+}
+
+footer h1,nav{
+	display:inline-block;
+}
+
+main{
+	
+	width:68%;
+	display:inline-block;
+	padding:10px;
+	
+}
+aside{
+	
+	width:27%;
+	padding:10px ;
+	
+	display:inline-block;
+	vertical-align: top;
+	
+}
+
+.product{
+	box-sizing:border-box;
+	border:1px solid grey;
+	width:220px;
+	margin:5px;
+	padding:5px;
+	display:inline-block;
+	
+}
+
+img{
+	
+	max-width:100%;
+}
+
+.button{
+	padding:10px;
+	display:inline-block;
+}
+
+.button-cart{
+	background: #937DCB
+}
+.button-cart:hover{
+	background: #743596
+}
+
+p:last-of-type{
+	color:grey;
+}
+
+/*Product detail page*/
+.product-detail{
+	width:600px;
+}
+
+.product-detail img{
+	max-width:50%;
+	float:left;
+}
+table{
+	width:400px;
+	text-align: left;
+	margin:20px;
+}
+th,td{
+	padding:10px;
+}
+caption{
+	font-style: italic;
+	border-bottom: 1px dotted;
+}
+tr:hover{
+	background:grey;
+}
+
+footer{
+	position: static;
+	width:100%;
+	margin:200px 0 0 0;
+	bottom:0;
+	
+}
+
+/*
+
+contact us*/
+form{
+	padding:10px;
+	margin:10px ;
+	width:600px;
+}
+
+.inline label{
+	display:inline-block;
+	width:100px;
+}
+
+input[type="text"],textarea{
+	padding:10px;
+	width:400px;
+}
+
+form > div {
+	margin:10px;
+}
+@media (max-width: 800px){
+	input[type="search"]{
+		width:40%;
+		margin-left:2em;
+	}
+}
